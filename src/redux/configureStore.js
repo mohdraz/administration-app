@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, compose } from "redux";
-import reduxImmutableStateInvariant from "redux-immutable-state-invariant"; // will if we mutate any state in redux by mistake
+import reduxImmutableStateInvariant from "redux-immutable-state-invariant"; // will notify if we mutate any state in redux by mistake
 import thunk from "redux-thunk";
 
 import rootReducer from "./reducers";
